@@ -61,9 +61,8 @@ The application is fully responsive and works seamlessly on mobile, tablet, and 
 ## Team Information
 | Name              | Role                              |
 |--------------------|-----------------------------------|
-| Adeel Abbasi      | Project Lead                       |
-| John Doe          | Frontend Developer                 |
-| Jane Smith        | Backend Developer                  |
+| Adeel Abbasi      | Web Dev                            |
+
 
 ## Browser Support
 The application supports the latest versions of:
