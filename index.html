@@ -1,0 +1,1087 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chain Reaction · Grooming Lab</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/fontsource-inter@5.0.16/index.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+      <div class="loader-ring"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-fixed" id="navbar">
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <div class="text-xl font-bold" style="color: var(--accent)">
+          CHAIN REACTION
+        </div>
+        <div class="hidden md:flex gap-6">
+          <a href="#grooming" class="nav-link">Grooming</a>
+          <a href="#discipline" class="nav-link">Discipline</a>
+          <a href="#consistency" class="nav-link">Consistency</a>
+          <a href="#success" class="nav-link">Success</a>
+          <a href="#team" class="nav-link">Team</a>
+        </div>
+        <button class="md:hidden text-2xl" id="menuBtn">☰</button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-particles" id="particles"></div>
+      <div class="text-center px-6 relative z-10">
+        <h1 class="hero-title">CHAIN REACTION</h1>
+        <div class="chain-container">
+          <a href="#grooming"><div class="image-card" id="img-1" data-step="STEP 01"></div></a>
+
+          <a href="#discipline"><div class="image-card" id="img-2" data-step="STEP 02"></div></a>
+
+          <a href="#consistency"><div class="image-card" id="img-3" data-step="STEP 03"></div></a>
+
+          <a href="#success"><div class="image-card" id="img-4" data-step="STEP 04"></div></a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <svg
+          width="40"
+          height="40"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="var(--accent)"
+          stroke-width="2"
+        >
+          <path d="M12 5v14M19 12l-7 7-7-7" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- Grooming Lab Section -->
+    <section class="lab-section grooming-lab" id="grooming">
+      <span class="section-number">Chapter 01</span>
+      <h2 class="section-title">Grooming Lab</h2>
+      <p class="section-intro">
+        Grooming means taking care of our appearance and behavior to present
+        ourselves in a clean, confident, and respectful way. It includes wearing
+        neat clothes, keeping hair tidy, maintaining personal hygiene, and
+        presenting ourselves well.
+      </p>
+
+      <div class="catalyst-grid">
+        <div class="catalyst-card">
+          <div class="catalyst-icon">🧼</div>
+          <h3>Clean · Rinse</h3>
+          <p>
+            Daily hygiene — the first promise to yourself. Builds awareness &
+            self-respect.
+          </p>
+        </div>
+        <div class="catalyst-card">
+          <div class="catalyst-icon">👕</div>
+          <h3>Neat · Compose</h3>
+          <p>Choosing clothes = micro‑planning. Trains your brain for order.</p>
+        </div>
+        <div class="catalyst-card">
+          <div class="catalyst-icon">🪮</div>
+          <h3>Care · Present</h3>
+          <p>Grooming your appearance signals "I matter". Confidence grows.</p>
+        </div>
+        <div class="catalyst-card">
+          <div class="catalyst-icon">📚</div>
+          <h3>Order · System</h3>
+          <p>
+            Organized space = organized mind. Discipline starts where chaos
+            ends.
+          </p>
+        </div>
+      </div>
+
+      <div class="engine-visual">
+        <div class="engine-node">
+          <div class="step-label">Step 1</div>
+          <div class="step-name">Grooming</div>
+        </div>
+        <div class="engine-connector">&#8594;</div>
+        <div class="engine-node">
+          <div class="step-label">Step 2</div>
+          <div class="step-name">Routine</div>
+        </div>
+        <div class="engine-connector">&#8594;</div>
+        <div class="engine-node">
+          <div class="step-label">Step 3</div>
+          <div class="step-name">Self‑control</div>
+        </div>
+        <div class="engine-connector">&#8594;</div>
+        <div class="engine-node highlight-node">
+          <div class="step-label">Step 4</div>
+          <div class="step-name">Discipline</div>
+        </div>
+      </div>
+
+      <div class="engine-quote" style="text-align:left;">
+        <h3 style="font-size: 2rem; font-weight: 800; margin-bottom: 1rem;">How Success is Built (The Formula)</h3>
+        <p style="margin-bottom: 1rem;">Success follows a specific chain. If you break one link, the whole thing falls apart. Here is how it works:</p>
+
+        <div style="display: grid; gap: 1.5rem;">
+          <div>
+            <h4 style="font-size: 1.2rem; margin-bottom: 0.5rem;">1. Grooming (The Mental &amp; Physical Start)</h4>
+            <p style="margin-bottom: 0.5rem;">Grooming is about "Setting the Stage." It means: Dressing well, cleaning your workspace, and organizing your thoughts.</p>
+            <ul style="margin-left: 1rem;">
+              <li><strong>The Logic:</strong> When you look and feel like a professional, your brain believes you are one. You stop acting like a "lazy person" and start acting like a "winner."</li>
+              <li><strong>The Role:</strong> It creates the Confidence to start.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 style="font-size: 1.2rem; margin-bottom: 0.5rem;">2. Discipline (The "Engine" of Action)</h4>
+            <p style="margin-bottom: 0.5rem;">Discipline is "Doing what is hard."</p>
+            <ul style="margin-left: 1rem;">
+              <li><strong>It means:</strong> Working when you are tired, waking up early when it’s cold, and saying "no" to distractions (like TikTok or TV).</li>
+              <li><strong>The Logic:</strong> Motivation is a feeling that disappears. Discipline is a rule that you follow no matter how you feel.</li>
+              <li><strong>The Role:</strong> It creates the Quality of work.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 style="font-size: 1.2rem; margin-bottom: 0.5rem;">3. Consistency (The "Power" of Repetition)</h4>
+            <p style="margin-bottom: 0.5rem;">Consistency is "Never Quitting."</p>
+            <ul style="margin-left: 1rem;">
+              <li><strong>It means:</strong> Doing the disciplined work every single day—not just once a week.</li>
+              <li><strong>The Logic:</strong> Success is like a snowball. At first, it is small. But if you keep rolling it (consistency), it becomes a giant mountain.</li>
+              <li><strong>The Role:</strong> It creates the Result (Success).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <h4 class="section-title" style="margin-top:20vh ;">Real World Examples</h4>
+
+      <div class="action-split">
+        <div class="action-card">
+          <img src="images/steve_jobs.jpg" alt="Steve Jobs" />
+          <h3
+            style="
+              font-size: 1.8rem;
+              font-weight: 700;
+              margin-bottom: 1rem;
+              color: var(--text);
+            "
+          >
+            Steve Jobs
+          </h3>
+          <p style="color: var(--text-muted); line-height: 1.8">
+            Steve Jobs was known for his simple but neat and consistent style.
+            He usually wore a black turtleneck, blue jeans, and sneakers.
+            Although his clothing style was simple, it was always clean and
+            well-presented. <br /><br />This consistent grooming style reflected
+            his disciplined lifestyle. By maintaining a clear and organized
+            personal style, he reduced unnecessary decisions and focused more on
+            his work and creativity.
+          </p>
+        </div>
+        <div class="steve-note">
+          <h5>The Power of Simplicity</h5>
+          <p
+            style="
+              color: var(--text-muted);
+              line-height: 1.8;
+              margin-bottom: 1.5rem;
+            "
+          >
+            Consistent grooming reduces decision fatigue and allows you to focus
+            on what truly matters.
+          </p>
+          <div class="stats-grid" style="margin: 2rem 0;">
+            <div class="stat-card">
+              <div class="stat-number">30+</div>
+              <div class="stat-label">Years Consistent</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">0</div>
+              <div class="stat-label">Decision Fatigue</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Discipline Lab Section -->
+    <section class="lab-section discipline-lab" id="discipline">
+      <span class="section-number" style="color: var(--disc-color);">Chapter 02</span>
+      <h2 class="section-title disc-title">Discipline</h2>
+      <p class="section-intro">
+        Discipline is the ability to control our actions and follow rules to achieve our goals. It helps us stay focused, build good habits, and make the right decisions even when things are difficult. Discipline brings order to life and leads to success.
+
+      </p>
+
+      <div class="discipline-grid">
+        <div class="disc-card">
+          <h4>⚙️ The Framework</h4>
+          <p>
+            A specific method, e.g. Pomodoro technique, that structures your
+            effort.
+          </p>
+        </div>
+        <div class="disc-card">
+          <h4>🛡️ The Guardrail</h4>
+          <p>Saying "no" to a distraction means saying "yes" to a priority.</p>
+        </div>
+        <div class="disc-card">
+          <h4>⚖️ The Decision</h4>
+          <p>Choosing what matters most over what matters now.</p>
+        </div>
+      </div>
+
+      <div
+        class="engine-quote"
+        style="
+          border-color: var(--disc-color);
+          background: rgba(255, 179, 71, 0.05);
+        "
+      >
+        <span style="color: var(--disc-color); font-weight: 700;">design</span>
+        Discipline +
+        <span style="color: var(--disc-color); font-weight: 700;">delivery</span>
+        Consistency =
+        <span style="color: var(--disc-color); font-weight: 700;">result</span>
+        effortless habit
+      </div>
+
+      <p
+        style="
+          text-align: center;
+          font-size: 1.3rem;
+          color: var(--text-muted);
+          margin: 2rem 0;
+        "
+      >
+        Discipline defines the path (study 40 min) · Consistency is the pace
+        (every day at 4pm)
+      </p>
+
+      <div
+        class="chain-block"
+        style="
+          border-color: var(--disc-color);
+          
+        "
+      >
+        <h3
+          style="
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--disc-color);
+            margin-bottom: 2rem;
+            text-align: center;
+          "
+        >
+          Case Study: No‑Zero Day
+        </h3>
+        <div
+          style="
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+          "
+        >
+          <div>
+            <h4
+              style="
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #ffd966;
+                margin-bottom: 1rem;
+                text-align: center;
+              "
+            >
+            The Process
+            </h4>
+            <p style="color: var(--text-muted); line-height: 1.8; text-align: center;">
+              <strong>The Discipline:</strong> "No-Zero Day" rule — at least 15
+              min of Organic Chemistry every day.
+            </p>
+            <p
+              style="
+                color: var(--text-muted);
+                line-height: 1.8;
+                margin-top: 1rem;
+              "
+            >
+              <strong>The Consistency:</strong> Habit tracker, even on tired
+              Mondays or Fridays.
+            </p>
+          </div>
+          <div>
+            <h4
+              style="
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #ffd966;
+                text-align: center;
+                margin-bottom: 1rem;
+              "
+            >
+              The Result
+            </h4>
+            <p style="color: var(--text-muted); line-height: 1.8; text-align: center;">
+              Week 1-2: felt like a chore. Week 4: no alarm needed. Result: 30+
+              hours logged, no cramming, ended up tutoring others. <br>From
+              "surviving" to "being a student."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="catalyst-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+        <div class="catalyst-card" style="border-top-color: var(--disc-color);">
+          <div class="catalyst-icon">🧠</div>
+          <h3>Frameworks over feelings</h3>
+          <p>Work when motivation zero.</p>
+        </div>
+        <div class="catalyst-card" style="border-top-color: var(--disc-color);">
+          <div class="catalyst-icon">📈</div>
+          <h3>Compound effect</h3>
+          <p>15 min/day > 10h marathon.</p>
+        </div>
+        <div class="catalyst-card" style="border-top-color: var(--disc-color);">
+          <div class="catalyst-icon">⚡</div>
+          <h3>Reduced friction</h3>
+          <p>Hard task becomes reflex.</p>
+        </div>
+        <div class="catalyst-card" style="border-top-color: var(--disc-color);">
+          <div class="catalyst-icon">🎯</div>
+          <h3>Predictable growth</h3>
+          <p>Success = math problem.</p>
+        </div>
+        <div class="catalyst-card" style="border-top-color: var(--disc-color);">
+          <div class="catalyst-icon">🔁</div>
+          <h3>Identity shift</h3>
+          <p>From "trying to study" to "being a student."</p>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <!-- Consistency Lab Section -->
+    <section class="lab-section consistency-lab" id="consistency">
+      <span class="section-number" style="color: var(--cons-color);;">Chapter 03</span>
+      <h2 class="section-title consistency-title">Consistency</h2>
+      <p class="section-intro">
+        Consistency is the ability to show up regardless of your emotional
+        state. The bridge between a goal and a reality. It is the transition from "doing" a task to "embodying" a behaviour
+      </p>
+
+      <div class="catalyst-grid">
+        <div class="catalyst-card" style="border-top-color: var(--cons-color)">
+          <div class="catalyst-icon">🧠</div>
+          <h3>Reduces Decision Fatigue</h3>
+          <p>
+            You don't decide, you just do. Mental energy saved for complex
+            problems.
+          </p>
+        </div>
+        <div class="catalyst-card" style="border-top-color: var(--cons-color)">
+          <div class="catalyst-icon">🤝</div>
+          <h3>Builds Self‑Trust</h3>
+          <p>Every kept promise (waking up same time) grows self‑esteem.</p>
+        </div>
+        <div class="catalyst-card" style="border-top-color: var(--cons-color)">
+          <div class="catalyst-icon">📉</div>
+          <h3>Lowers Stress</h3>
+          <p>Routine reduces cortisol; humans thrive on order.</p>
+        </div>
+      </div>
+
+      <div class="chain-block">
+        <h3
+          style="
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--cons-color);
+            margin-bottom: 2rem;
+            text-align: center;
+          "
+        >
+          ⚡ The Compound Effect
+        </h3>
+        <div style="text-align: center; margin-bottom: 2rem">
+          <p
+            style="
+              font-size: 1.4rem;
+              color: var(--text-muted);
+              line-height: 1.8;
+            "
+          >
+            <strong style="color: var(--cons-color)">Skill mastery:</strong> 30
+            min/day for a year = 182 hours. You outpace someone who does 10h
+            once a month.<br />
+            <strong style="color: var(--cons-color)">Momentum:</strong> easier
+            to keep a moving car rolling than restart.
+          </p>
+        </div>
+      </div>
+      <h4 class="section-title consistency-title small-title" style="margin-top:20vh ;">Real World Examples</h4>
+
+
+            <div class="action-split">
+        <div class="action-card">
+          <img src="images/jeff.jpg" alt="Steve Jobs" />
+          <h3
+            style="
+              font-size: 1.8rem;
+              font-weight: 700;
+              margin-bottom: 1rem;
+              color: var(--text);
+            "
+          >
+            Jerry Seinfeld
+          </h3>
+          <p style="color: var(--text-muted); line-height: 1.8">
+            When Seinfeld was starting out, he knew that to be a great comedian, he had to write better jokes. To write better jokes, he had to write every day. <br><br />He bought a giant wall calendar that had a whole year on one page and hung it on a prominent wall. He used a big red magic marker. For every day he wrote new material, he put a big red X over that day. <br><br>Seinfeld didn't focus on "being funny" or "getting a TV show." He focused on the red X. By being consistent, he eventually created one of the most successful sitcoms in television history.
+          </p>
+        </div>
+                <div class="steve-note">
+
+          <div class="stats-grid" style="margin: 2rem 0;">
+
+                            <div
+          class="stat-card"
+          style="
+            border-left-color: var(--cons-color);
+            background: linear-gradient(135deg, #1d1a2c, #2a2540);
+          "
+        >
+          <h5 style="color: var(--cons-color);font-size: 1.5rem;">The Problem</h5>
+          <p style="color: var(--text-muted); line-height: 1.8">
+            Seinfeld knew he had to write jokes every day to be great.
+          </p>
+        </div>
+
+                  <div
+          class="stat-card"
+          style="
+            border-left-color: var(--cons-color);
+
+          "
+        >
+          <h5 style="color: var(--cons-color) ;font-size: 1.5rem;">The Consistent System</h5>
+          <p style="color: var(--text-muted); line-height: 1.8">
+            Wall calendar, big red X for each day of writing. Build the chain.
+          </p>
+        </div>
+        <div
+          class="stat-card"
+          style="
+            border-left-color: var(--cons-color);
+          "
+        >
+          <h5 style="color: var(--cons-color) ;font-size: 1.5rem;">The Outcome</h5>
+          <p style="color: var(--text-muted); line-height: 1.8">
+            He didn't focus on "being funny" — he focused on the X. Created one
+            of the most successful sitcoms.
+          </p>
+        </div>
+        </div>
+
+
+      </div>
+
+
+      <div
+        class="engine-quote"
+        style="
+          border-color: var(--cons-color);
+          background: rgba(108, 92, 231, 0.05);
+        "
+      >
+        🏆 <strong>Professional reputation:</strong> "the person who always
+        delivers" is more valuable than the genius who disappears.
+      </div>
+
+
+      <div class="progress-container">
+        <div
+          style="
+            text-align: center;
+            margin-bottom: 1rem;
+            color: var(--text-muted);
+          "
+        >
+          Your Consistency Journey
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Success Lab Section -->
+    <section class="lab-section success-lab" id="success">
+      <span class="section-number " style="color: var(--succ-color);">Chapter 04</span>
+      <h2 class="section-title success-title">Success</h2>
+      <p class="section-intro">
+        Success is achieving a goal that you have set for yourself. It is the "Final Result" of your hard work. It is built brick by brick at a time, using three main tools: Grooming, Discipline, and Consistency.
+      </p>
+
+      <div class="formula-block">
+        <div class="formula-item">Right Things</div>
+        <div class="formula-item">+</div>
+        <div class="formula-item">Right Way</div>
+        <div class="formula-item">+</div>
+        <div class="formula-item">Every Day</div>
+        <div class="formula-item">=</div>
+        <div
+          class="formula-item"
+          style="background: var(--succ-color); color: #000"
+        >
+          SUCCESS
+        </div>
+      </div>
+
+
+<div class="success-engine">
+  
+  <div class="engine-header">
+    <h2>The Success Engine</h2>
+    <p>Success is a chain reaction. Break one link, and the system fails. Master these three pillars to build momentum.</p>
+  </div>
+
+  <div class="engine-grid">
+    
+    <!-- Card 1: Grooming -->
+    <div class="engine-card card-grooming">
+      <div class="card-header">
+        <div class="icon-box">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.2 7.8l-7.7 7.7a2 2 0 0 1-2.8 0l-4-4a2 2 0 0 1 0-2.8l7.7-7.7a2 2 0 0 1 2.8 0l4 4a2 2 0 0 1 0 2.8z"></path><path d="M15 2l7 7"></path><path d="M2 22l5-5"></path></svg>
+        </div>
+        <div>
+          <h3 class="card-title">Grooming</h3>
+          <p class="card-subtitle">The Mental Start</p>
+        </div>
+      </div>
+      
+      <div class="card-body">
+        Setting the stage. When you look and feel like a professional, your brain stops acting lazy and starts acting like a winner.
+      </div>
+
+      <div class="card-stats">
+        <div class="stat-item">
+          <span class="stat-label">Logic</span>
+          <span class="stat-value">Appearance → Belief</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Role</span>
+          <span class="stat-value">Creates Confidence</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2: Discipline -->
+    <div class="engine-card card-discipline">
+      <div class="card-header">
+        <div class="icon-box">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"></path><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+        </div>
+        <div>
+          <h3 class="card-title">Discipline</h3>
+          <p class="card-subtitle">The Engine of Action</p>
+        </div>
+      </div>
+      
+      <div class="card-body">
+        Doing what is hard. Motivation disappears, but discipline is a rule. Work when tired, wake up early, ignore distractions.
+      </div>
+
+      <div class="card-stats">
+        <div class="stat-item">
+          <span class="stat-label">Logic</span>
+          <span class="stat-value">Rules > Feelings</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Role</span>
+          <span class="stat-value">Creates Quality</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3: Consistency -->
+    <div class="engine-card card-consistency">
+      <div class="card-header">
+        <div class="icon-box">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+        </div>
+        <div>
+          <h3 class="card-title">Consistency</h3>
+          <p class="card-subtitle">The Power of Repetition</p>
+        </div>
+      </div>
+      
+      <div class="card-body">
+        Never quitting. Success is a snowball. Small efforts daily roll into a giant mountain over time.
+      </div>
+
+      <div class="card-stats">
+        <div class="stat-item">
+          <span class="stat-label">Logic</span>
+          <span class="stat-value">Time × Action</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Role</span>
+          <span class="stat-value">Creates Results</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</div>
+
+<div class="action-split">
+  <div class="action-card">
+    <img src="images/ronaldo.jpg" alt="Cristiano Ronaldo" />
+    <h3
+      style="
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: var(--text);
+      "
+    >
+      Cristiano Ronaldo → Football Legend
+    </h3>
+<p style="color: var(--text-muted); line-height: 1.8">
+            Born into poverty on the island of Madeira, Cristiano Ronaldo faced obstacles that would have ended most careers before they began. Diagnosed with a racing heart condition at 15, he underwent surgery and returned to the pitch with renewed purpose. <br>Moving to Lisbon at just 12 years old, he cried himself to sleep from homesickness but refused to quit. He didn't just rely on talent; he engineered his body and mind. From fixing his posture and teeth to obsessing over sleep cycles and nutrition,<br> Ronaldo treated his life like a machine. This relentless pursuit of perfection allowed him to dominate three different leagues and remain at the top of the game well into his late 30s, proving that greatness is built, not born.
+          </p>
+  </div>
+  <div class="steve-note">
+    <div class="stats-grid" style="margin: 2rem 0;">
+      <div
+        class="stat-card"
+        style="
+          border-left-color: var(--succ-color);
+          background: linear-gradient(135deg, #1d1a2c, #2a2540);
+        "
+      >
+        <h5 style="color: var(--succ-color);font-size: 1.5rem;">Grooming Phase</h5>
+        <p style="color: var(--text-muted); line-height: 1.8">
+          Age 12: Moved to Lisbon alone. Transformed his body, fixed his teeth, perfected his appearance. Mindset shifted from island kid to elite athlete.
+        </p>
+      </div>
+      <div
+        class="stat-card"
+        style="
+          border-left-color: var(--succ-color);
+        "
+      >
+        <h5 style="color: var(--succ-color);font-size: 1.5rem;">Discipline Phase</h5>
+        <p style="color: var(--text-muted); line-height: 1.8">
+          Rule: Train harder than everyone. No alcohol, strict diet, 5 meals/day, gym after team practice. Slept 5x 90-min cycles for recovery.
+        </p>
+      </div>
+      <div
+        class="stat-card"
+        style="
+          border-left-color: var(--succ-color);
+        "
+      >
+        <h5 style="color: var(--succ-color);font-size: 1.5rem;">Consistency Phase</h5>
+        <p style="color: var(--text-muted); line-height: 1.8">
+          850+ career goals across 20+ years. Scored in 11 consecutive seasons. 30+ years old and still winning Champions League titles.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+            <div class="pillar-chart">
+        <div class="pillar pillar-grooming">
+          <div class="bar" style="height: 60px"></div>
+          <span>Grooming</span>
+        </div>
+        <div class="pillar pillar-discipline">
+          <div class="bar" style="height: 120px"></div>
+          <span>Discipline</span>
+        </div>
+        <div class="pillar pillar-consistency">
+          <div class="bar" style="height: 150px"></div>
+          <span>Consistency</span>
+        </div>
+        <div class="pillar pillar-success">
+          <div class="bar" style="height: 180px"></div>
+          <span>Success</span>
+        </div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">4</div>
+          <div class="stat-label">Core Pillars</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">∞</div>
+          <div class="stat-label">Possibilities</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Within Reach</div>
+        </div>
+      </div>
+
+
+
+    </section>
+    <section class="about-us-section">
+  <!-- Background Animation -->
+  <div class="bg-animation">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- Header -->
+  <div class="about-header" id="team">
+    <div class="about-badge">✦ Meet The Team ✦</div>
+    <h2>The Architects</h2>
+
+
+  <!-- Team Grid -->
+  <div class="team-grid">
+    
+    <!-- Member 1: Adeel Abbasi -->
+    <div class="team-card">
+      <div class="member-number">01</div>
+      <div class="member-avatar html">⚡</div>
+      <h3 class="member-name">Adeel Abbasi (L)</h3>
+      <div class="member-reg">BAI251022</div>
+      <div class="member-role role-html">Website</div>
+      <div class="glow-line"></div>
+    </div>
+
+    <!-- Member 2: Mahnoor Masroor -->
+    <div class="team-card">
+      <div class="member-number">02</div>
+      <div class="member-avatar groom">✨</div>
+      <h3 class="member-name">Mahnoor Masroor</h3>
+      <div class="member-reg">BAI251012</div>
+      <div class="member-role role-groom">Grooming</div>
+      <div class="glow-line"></div>
+    </div>
+
+    <!-- Member 3: Zohaib Affaq -->
+    <div class="team-card">
+      <div class="member-number">03</div>
+      <div class="member-avatar disc">🔥</div>
+      <h3 class="member-name">Zohaib Affaq</h3>
+      <div class="member-reg">BAI251016</div>
+      <div class="member-role role-disc">Discipline</div>
+      <div class="glow-line"></div>
+    </div>
+
+    <!-- Member 4: Yashfa Nadeem -->
+    <div class="team-card">
+      <div class="member-number">04</div>
+      <div class="member-avatar cons">📊</div>
+      <h3 class="member-name">Yashfa Nadeem</h3>
+      <div class="member-reg">BAI251019</div>
+      <div class="member-role role-cons">Consistency</div>
+      <div class="glow-line"></div>
+    </div>
+
+    <!-- Member 5: Saira Qamar -->
+    <div class="team-card">
+      <div class="member-number">05</div>
+      <div class="member-avatar succ">🏆</div>
+      <h3 class="member-name">Saira Qamar</h3>
+      <div class="member-reg">BAI251023</div>
+      <div class="member-role role-succ">Success</div>
+      <div class="glow-line"></div>
+    </div>
+
+  </div>
+
+</section>
+
+
+    <!-- Footer -->
+    <footer
+      style="
+        padding: 3rem 8vw;
+        text-align: center;
+        border-top: 1px solid var(--border-dim);
+        background: var(--bg);
+      "
+    >
+      <p style="color: var(--text-muted)">
+        © Adeel Abbasi.
+      </p>
+      <p style="color: var(--accent); margin-top: 1rem; font-weight: 600">
+        Made with ❤️ in 2026.
+      </p>
+    </footer>
+
+    <script>
+      // Register GSAP ScrollTrigger
+      gsap.registerPlugin(ScrollTrigger);
+
+      // Hide loader
+      window.addEventListener("load", () => {
+        setTimeout(() => {
+          document.getElementById("loader").classList.add("hidden");
+        }, 1000);
+      });
+
+      // Create particles
+      const particlesContainer = document.getElementById("particles");
+      for (let i = 0; i < 50; i++) {
+        const particle = document.createElement("div");
+        particle.className = "particle";
+        particle.style.left = Math.random() * 100 + "%";
+        particle.style.top = Math.random() * 100 + "%";
+        particle.style.animationDelay = Math.random() * 15 + "s";
+        particle.style.animationDuration = 10 + Math.random() * 10 + "s";
+        particlesContainer.appendChild(particle);
+      }
+
+      // Navbar scroll effect
+      let lastScroll = 0;
+      const navbar = document.getElementById("navbar");
+
+      window.addEventListener("scroll", () => {
+        const currentScroll = window.pageYOffset;
+
+        if (currentScroll > lastScroll && currentScroll > 100) {
+          navbar.classList.add("nav-hidden");
+        } else {
+          navbar.classList.remove("nav-hidden");
+        }
+
+        lastScroll = currentScroll;
+
+        // Update active nav link
+        const sections = ["grooming", "discipline", "consistency", "success"];
+        sections.forEach((section) => {
+          const element = document.getElementById(section);
+          if (element) {
+            const rect = element.getBoundingClientRect();
+            if (rect.top <= 200 && rect.bottom >= 200) {
+              document.querySelectorAll(".nav-link").forEach((link) => {
+                link.classList.remove("active");
+                if (link.getAttribute("href") === "#" + section) {
+                  link.classList.add("active");
+                }
+              });
+            }
+          }
+        });
+      });
+
+      // GSAP Animations
+      gsap.utils.toArray(".catalyst-card").forEach((card, index) => {
+        gsap.from(card, {
+          scrollTrigger: {
+            trigger: card,
+            start: "top 85%",
+            toggleActions: "play none none reverse",
+          },
+          y: 100,
+          opacity: 0,
+          duration: 0.8,
+          delay: index * 0.1,
+        });
+      });
+
+      gsap.utils.toArray(".engine-node").forEach((node, index) => {
+        gsap.from(node, {
+          scrollTrigger: {
+            trigger: node,
+            start: "top 85%",
+            toggleActions: "play none none reverse",
+          },
+          scale: 0,
+          opacity: 0,
+          duration: 0.6,
+          delay: index * 0.15,
+        });
+      });
+
+      gsap.utils.toArray(".disc-card").forEach((card, index) => {
+        gsap.from(card, {
+          scrollTrigger: {
+            trigger: card,
+            start: "top 85%",
+            toggleActions: "play none none reverse",
+          },
+          x: index % 2 === 0 ? -100 : 100,
+          opacity: 0,
+          duration: 0.8,
+          delay: index * 0.1,
+        });
+      });
+
+      gsap.from(".section-title", {
+        scrollTrigger: {
+          trigger: ".section-title",
+          start: "top 80%",
+          toggleActions: "play none none reverse",
+        },
+        y: 50,
+        opacity: 0,
+        duration: 1,
+      });
+
+      gsap.from(".section-intro", {
+        scrollTrigger: {
+          trigger: ".section-intro",
+          start: "top 80%",
+          toggleActions: "play none none reverse",
+        },
+        x: -50,
+        opacity: 0,
+        duration: 1,
+        delay: 0.3,
+      });
+
+      // Progress bar animation
+      gsap.to("#progressFill", {
+        scrollTrigger: {
+          trigger: "#progressFill",
+          start: "top 85%",
+          toggleActions: "play none none reverse",
+        },
+        width: "75%",
+        duration: 2,
+        ease: "power2.out",
+      });
+
+      // Pillar animation
+      gsap.utils.toArray(".pillar .bar").forEach((bar, index) => {
+        const targetHeight = bar.style.height;
+        gsap.from(bar, {
+          scrollTrigger: {
+            trigger: bar,
+            start: "top 85%",
+            toggleActions: "play none none reverse",
+          },
+          height: 0,
+          duration: 1,
+          delay: index * 0.15,
+          ease: "power2.out",
+        });
+      });
+
+      // Formula items animation
+      gsap.utils.toArray(".formula-item").forEach((item, index) => {
+        gsap.from(item, {
+          scrollTrigger: {
+            trigger: item,
+            start: "top 85%",
+            toggleActions: "play none none reverse",
+          },
+          scale: 0,
+          opacity: 0,
+          duration: 0.5,
+          delay: index * 0.1,
+        });
+      });
+
+      // Stats counter animation
+      gsap.utils.toArray(".stat-number").forEach((stat) => {
+        gsap.from(stat, {
+          scrollTrigger: {
+            trigger: stat,
+            start: "top 85%",
+            toggleActions: "play none none reverse",
+          },
+          scale: 0,
+          opacity: 0,
+          duration: 0.8,
+          ease: "back.out(1.7)",
+        });
+      });
+
+      // Image showcase animation
+      gsap.utils.toArray(".showcase-item").forEach((item, index) => {
+        gsap.from(item, {
+          scrollTrigger: {
+            trigger: item,
+            start: "top 85%",
+            toggleActions: "play none none reverse",
+          },
+          y: 100,
+          opacity: 0,
+          duration: 0.8,
+          delay: index * 0.2,
+        });
+      });
+
+      // Mobile menu toggle
+      const menuBtn = document.getElementById("menuBtn");
+      let menuOpen = false;
+
+      const setNavLinksDisplay = (value) => {
+        const navLinks = navbar.querySelectorAll(".nav-link");
+        navLinks.forEach((link) => {
+          link.style.display = value;
+        });
+      };
+
+      menuBtn.addEventListener("click", () => {
+        menuOpen = !menuOpen;
+        // Simple mobile menu implementation
+        setNavLinksDisplay(menuOpen ? "block" : "none");
+      });
+
+      // Reset mobile menu state on resize (avoid stuck inline styles)
+      window.addEventListener("resize", () => {
+        if (window.innerWidth >= 768) {
+          setNavLinksDisplay("");
+          menuOpen = false;
+        }
+      });
+
+      // Smooth scroll for nav links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // Add floating badges randomly
+      // const sections = document.querySelectorAll('.lab-section');
+      // sections.forEach(section => {
+      //     const badgeCount = Math.floor(Math.random() * 2) + 1;
+      //     for (let i = 0; i < badgeCount; i++) {
+      //         const badge = document.createElement('div');
+      //         badge.className = 'floating-badge';
+      //         badge.textContent = ['NEW', 'HOT', 'TRENDING', 'PRO'][Math.floor(Math.random() * 4)];
+      //         badge.style.top = (20 + Math.random() * 60) + '%';
+      //         badge.style.left = (10 + Math.random() * 80) + '%';
+      //         badge.style.animationDelay = Math.random() * 3 + 's';
+      //         section.appendChild(badge);
+      //     }
+      // });
+
+      console.log("🚀 Chain Reaction Website Loaded Successfully!");
+    </script>
+  </body>
+</html>
